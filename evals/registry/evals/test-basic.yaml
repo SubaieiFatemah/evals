@@ -13,7 +13,7 @@ test-fuzzy-match:
 test-fuzzy-match.s1.simple-v0:
   class: evals.elsuite.basic.fuzzy_match:FuzzyMatch
   args:
-    samples_jsonl: test_fuzzy_match/samples.jsonl
+    samples_jsonl: /content/extracted_prepared.jsonl #test_fuzzy_match/samples.jsonl
 
 test-includes:
   id: test-includes.s1.simple-v0
