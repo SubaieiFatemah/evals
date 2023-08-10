@@ -1,0 +1,9 @@
+generate_answers:
+  id: generate_answers.match.v1
+  metrics: [accuracy]
+  description: Evaluate if all the answers were generated
+
+generate_answers.match.v1:
+  class: evals.elsuite.basic.match:GenerateAnswers
+  args:
+    test_jsonl: /content/output.jsonl
